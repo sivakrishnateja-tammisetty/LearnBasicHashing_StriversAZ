@@ -49,3 +49,13 @@ int main()
 	}
 	int q;
 	cout<<"Enter no of quires:";
+	cin>>q;
+	while(q--)
+	{
+		char c;
+		cin>>c;
+		//fetch
+		cout<<hash[c]<<endl;
+	}
+	return 0;
+}
